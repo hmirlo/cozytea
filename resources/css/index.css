@@ -1,0 +1,24 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+/* header */
+.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+}
+
+.h-div {
+  width:50px;
+  flex-direction: row;
+}
+
+.nav-header span {
+  flex-direction: row-reverse;
+}
