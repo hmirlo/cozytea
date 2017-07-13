@@ -11,12 +11,11 @@ body {
 
 /* header div */
 .header {
-  height: 69px;
+  height: 70px;
   width: 100%;
   border-bottom: 1px solid seashell;
   position: fixed;
   display: flex;
-  margin-bottom:
   z-index: 1;
   background-color: black;
   flex-wrap: wrap;
@@ -32,12 +31,10 @@ body {
   text-align: left;
 
 }
-
 .nav-header span {
  text-align: right;
 
 }
-
 span a {
   padding: 0 10px;
   color: seashell;
@@ -46,21 +43,85 @@ span a {
 }
 /* chest div */
 .chest {
-  padding top: 70px;
+  padding-top: 70px;
   width: 100%;
   height: 700px;
   display: flex;
-  background-image:url("../images/img-mission-background.jpg") no-repeat;
+  background-image:url("../images/img-mission-background.jpg");
   background-size: cover;
 
 }
 .mission-div {
 width: 1200px;
-height: 150px;
+height: 100px;
 align-items: center;
 background-color: black;
 text-align: center;
-top: 250px;
+top: 270px;
 position: relative;
+margin: 0 auto;
+}
+.mission-div h2 {
+  margin-top: 5px;
+}
+/* midsection div*/
+.midsection {
+  width: 1000px;
+  text-align: center;
+  margin: 50px auto 0 auto;
+}
 
+  /* first row div */
+  .first-row {
+    margin-top: 150px;
+    display: flex;
+}
+.images {
+  height: 200px;
+  width: 300px;
+  font-size: 18px;
+  justify-content: space-around;
+  display: flex;
+  }
+
+  .blitz {
+    background-image: url("..images/img-berryblitz.jpg");
+  }
+  .rum {
+    background-image: url("..images/img-spiced-rum.jpg");
+  }
+  .donuts {
+    background-image: url("..images/img-donut.jpg");
+  }
+  /* start of the second row */
+.second-row {
+  flex-direction: row;
+  justify-content: space-around;
+}
+.ave {
+    background-image: url("..images/img-donut.jpg");
+}
+.bizarre {
+  background-image: url("..images/img-bedford-bizarre.jpg")
+}
+/* start of legs div */
+.legs {
+  margin-top: 500px;
+  text-align: center:
+  height: 500px;
+  display: flex;
+  background-image:("..images/img-locations-background.jpg");
+
+}
+
+.locations {
+
+
+}
+
+
+.box-divs {
+  height: 300px;
+  width: 300px;
+  opacity: 1;
 }
