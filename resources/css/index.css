@@ -73,45 +73,57 @@ margin: 0 auto;
 
   /* first row div */
   .first-row {
-    margin-top: 150px;
+    margin-top: 50px;
     display: flex;
+    justify-content: center;
+    flex-direction: row;
+
 }
 .images {
   height: 200px;
   width: 300px;
   font-size: 18px;
-  justify-content: space-around;
-  display: flex;
-  }
+  background-size: cover;
+  margin: 0 15px;
+}
+
+.images h3 {
+  margin-top: 215px;
+}
 
   .blitz {
-    background-image: url("..images/img-berryblitz.jpg");
+    background-image: url("../images/img-berryblitz.jpg");
   }
   .rum {
-    background-image: url("..images/img-spiced-rum.jpg");
+    background-image: url("../images/img-spiced-rum.jpg");
   }
   .donuts {
-    background-image: url("..images/img-donut.jpg");
+    background-image: url("../images/img-donut.jpg");
   }
   /* start of the second row */
 .second-row {
+  margin-top: 100px;
   flex-direction: row;
-  justify-content: space-around;
+  display: flex;
+  justify-content: center;
 }
 .ave {
-    background-image: url("..images/img-donut.jpg");
+    background-image: url("../images/img-donut.jpg");
 }
 .bizarre {
-  background-image: url("..images/img-bedford-bizarre.jpg")
+  background-image: url("../images/img-bedford-bizarre.jpg")
 }
 /* start of legs div */
 .legs {
-  margin-top: 500px;
+  border-radius: 1px solid white;
+  margin-top: 200px;
   text-align: center:
   height: 500px;
+  width: 100%;
   display: flex;
-  background-image:("..images/img-locations-background.jpg");
-
+  background-image:url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .locations {
@@ -119,9 +131,17 @@ margin: 0 auto;
 
 }
 
-
 .box-divs {
   height: 300px;
   width: 300px;
   opacity: 1;
+  background-color: black;
+  text-align: center;
+
+}
+.box-divs h3 {
+  padding-top: 50px;
+}
+.box-divs p {
+  padding-bottom: 15px;
 }
