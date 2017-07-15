@@ -44,11 +44,12 @@ span a {
 /* chest div */
 .chest {
   padding-top: 70px;
-  width: 100%;
+
   height: 700px;
   display: flex;
   background-image:url("../images/img-mission-background.jpg");
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 .mission-div {
@@ -114,21 +115,26 @@ margin: 0 auto;
   background-image: url("../images/img-bedford-bizarre.jpg")
 }
 /* start of legs div */
-.legs {
-  border-radius: 1px solid white;
-  margin-top: 200px;
-  text-align: center:
+#locations {
+  padding-top: 70px;
+
+  margin-top: 150px;
   height: 500px;
-  width: 100%;
-  display: flex;
   background-image:url("../images/img-locations-background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+
+
 }
 
+#locations .locations {
+margin: auto;
+width: 1100px:
+}
 .locations {
-
-
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .box-divs {
@@ -137,11 +143,23 @@ margin: 0 auto;
   opacity: 1;
   background-color: black;
   text-align: center;
+  display: flex;
+  flex-basis: 280;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 20px;
 
 }
-.box-divs h3 {
-  padding-top: 50px;
+#locations h2 {
+  text-align: center;
 }
 .box-divs p {
   padding-bottom: 15px;
+}
+.footer {
+  text-align: center;
+}
+.footer p {
+  text-align: left;
+  font-size: 16px;
 }
